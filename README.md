@@ -1,1 +1,1 @@
-# My_top10_movie_rating App
+# My Top-10 Movie Rating App
