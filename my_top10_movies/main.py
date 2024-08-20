@@ -9,11 +9,11 @@ from wtforms.validators import DataRequired
 import requests
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'RANDOM_SECRET_KEY'
 Bootstrap5(app)
 
 
-API_KEY = "a2899412c2bc62e1767be78d6ff8e6f3"
+MOVIES_DB_API_KEY = "ENTER_YOUR_API_KEY"
 MOVIE_DETAILS = "https://api.themoviedb.org/3/movie"
 MOVIE_IMG = "https://image.tmdb.org/t/p/w500{poster_path}"
 
@@ -109,5 +109,3 @@ def find_movie():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-#email: tahleela@echologyx.com
